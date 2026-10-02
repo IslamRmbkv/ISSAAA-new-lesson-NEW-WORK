@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Trail Club - Routes</title>
+</head>
+<body>
+
+    <h1>Trail Club</h1>
+    <p>Student hiking club &middot; Classroom example</p>
+    
+    <p>
+        <a href="index.html">Home</a> &middot; 
+        <a href="routes.html">Routes</a> &middot; 
+        <a href="apply.html">Apply for a trip</a>
+    </p>
+    <hr>
+
+    <p><a href="index.html">Home</a> &rarr; <span>Routes</span></p>
+
+    <h2>Choose Your Route</h2>
+    <p>
+        <a href="#comparison">Comparison</a> &middot; 
+        <a href="#river-walk">River Walk</a> &middot; 
+        <a href="#forest-trail">Forest Trail</a> &middot; 
+        <a href="#ridge-view">Ridge View</a>
+    </p>
+
+    <h3 id="comparison">Route Comparison</h3>
+    <p>Sample routes &mdash; estimated classroom data</p>
+
+    <!-- Таблица без сетки (border убран) -->
+    <table cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Route</th>
+                <th colspan="2">Trip details</th>
+                <th>Sample price</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Distance</th>
+                <th>Duration</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#river-walk">River Walk</a></td>
+                <td>4 km</td>
+                <td>2 hours</td>
+                <td>300 KGS</td>
+            </tr>
+            <tr>
+                <td><a href="#forest-trail">Forest Trail</a></td>
+                <td>7 km</td>
+                <td>4 hours</td>
+                <td>500 KGS</td>
+            </tr>
+            <tr>
+                <td><a href="#ridge-view">Ridge View</a></td>
+                <td>10 km</td>
+                <td>6 hours</td>
+                <td>700 KGS</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><small>Prices are fictional and used only for HTML practice.</small></p>
+
+    <h3 id="river-walk">River Walk</h3>
+    <p>A short route beside the river.</p>
+    
+    <p>
+        Meeting point<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Student entrance<br>
+        Group size<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;20 people
+    </p>
+
+    <!-- Полоска прогресса с помощью HTML -->
+    <p>
+        Reserved places: 
+        <progress value="8" max="20"></progress> 
+        8 / 20
+    </p>
+
+    <details>
+        <summary>What should I bring?</summary>
+        <p>Water, comfortable shoes, and a snack.</p>
+    </details>
+
+    <p><a href="apply.html">Apply for this trip</a></p>
+
+    <h3 id="forest-trail">Forest Trail</h3>
+    <p>A longer walk with shaded sections.</p>
+
+    <!-- Полоска прогресса с помощью HTML -->
+    <p>
+        Reserved places: 
+        <progress value="12" max="16"></progress> 
+        12 / 16
+    </p>
+
+    <details>
+        <summary>Preparation checklist</summary>
+        <p>Check the weather, bring a rain jacket, and wear sturdy boots.</p>
+    </details>
+
+    <p><a href="apply.html">Apply for this trip</a></p>
+
+    <h3 id="ridge-view">Ridge View</h3>
+    <p>The longest route in this fictional club catalog.</p>
+
+    <!-- Полоска прогресса с помощью HTML -->
+    <p>
+        Reserved places: 
+        <progress value="6" max="12"></progress> 
+        6 / 12
+    </p>
+
+    <details>
+        <summary>How is this route different?</summary>
+        <p>It offers panoramic views but requires a higher level of fitness.</p>
+    </details>
+
+    <p><a href="apply.html">Apply for this trip</a></p>
+
+    <hr>
+    <p><small>Trail Club &middot; Fictional trips and prices for HTML practice</small></p>
+    <p><a href="#">Back to top &uarr;</a></p>
+
+</body>
+</html>
